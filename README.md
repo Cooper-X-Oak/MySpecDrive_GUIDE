@@ -177,12 +177,12 @@ npm install -g @fission-ai/openspec@latest
 > 🤖 **Agent 技巧**: 在新项目中，你可以直接告诉你的 AI 助手（如 Trae/Cursor）：
 > "请查阅 `https://github.com/fission-ai/openspec` 的 Quick Start，并帮我为当前项目初始化 OpenSpec 框架。"
 
-### 方式 2: 使用本仓库模板 (Recommended for Beginners) 🇨🇳
+### 📚 学习资源与版本说明 (Reference)
 
-本仓库是我个人优化过的、**中文友好**的配置版本，更适合国内开发者和初学者。
+本仓库内的 `.trae/skills/` 目录下包含了针对核心 Skill 的**中文注释**与**初学者指南**，你可以将它们作为学习资料，了解每个工具的具体用途。
 
-1. 点击本仓库右上角的 **Code -> Download ZIP** 下载源码包并解压。
-2. 将解压文件夹中的 `.trae/` 文件夹复制到你的项目根目录下。
+> ⚠️ **注意**: 本仓库的配置快照于 **2026年2月27日**。
+> OpenSpec 社区发展迅速，为了获得最佳体验和最新功能，**强烈建议**你优先使用上方提到的官方方式进行部署，直接利用开源社区的最新智慧。本仓库仅作为学习和参考使用。
 
 ### 3. 开始使用 (Usage)
 
