@@ -1,0 +1,10 @@
+profile: core
+version: 1.0.0
+language: zh-CN
+settings:
+  artifacts:
+    proposal: true
+    design: true
+    tasks: true
+    specs: true
+  auto_archive: false
