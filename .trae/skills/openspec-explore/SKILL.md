@@ -9,6 +9,15 @@ metadata:
   generatedBy: "1.2.0"
 ---
 
+## 💡 初学者指南 (Beginner's Guide)
+
+此 Skill 是你的“思考搭档”。在这里，我们不写代码，不建任务，只是纯粹地探讨问题、理清思路。
+
+- **何时使用**: 当你有一个模糊的想法，或者遇到难题想找人讨论，但还不想马上开始写代码或建文档时。
+- **功能**: 帮你理清思路、画图分析架构、探索代码库现状。它是一个纯粹的“头脑风暴”模式，不会对项目产生实质性变更。
+
+---
+
 Enter explore mode. Think deeply. Visualize freely. Follow the conversation wherever it goes.
 
 **IMPORTANT: Explore mode is for thinking, not implementing.** You may read files, search code, and investigate the codebase, but you must NEVER write code or implement features. If the user asks you to implement something, remind them to exit explore mode first and create a change proposal. You MAY create OpenSpec artifacts (proposals, designs, specs) if the user asks—that's capturing thinking, not implementing.

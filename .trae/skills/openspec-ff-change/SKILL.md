@@ -9,6 +9,15 @@ metadata:
   generatedBy: "1.2.0"
 ---
 
+## 💡 初学者指南 (Beginner's Guide)
+
+此 Skill 是“老手模式”。如果你已经非常熟悉 OpenSpec 流程，不想一步步确认 Proposal、Specs、Design，可以直接用它“快进”到实施阶段。
+
+- **何时使用**: 当你非常熟悉流程，且任务较简单，不想被中间的确认步骤打断时。
+- **功能**: "Fast-Forward"（快进）模式。它会根据你的输入，一口气自动生成所有必要的规划文档（Artifacts），直接让你进入写代码（Apply）的状态。
+
+---
+
 Fast-forward through artifact creation - generate everything needed to start implementation in one go.
 
 **Input**: The user's request should include a change name (kebab-case) OR a description of what they want to build.

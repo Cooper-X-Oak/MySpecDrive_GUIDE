@@ -9,6 +9,15 @@ metadata:
   generatedBy: "1.2.0"
 ---
 
+## 💡 初学者指南 (Beginner's Guide)
+
+此 Skill 是你的“新手教程”。如果你是第一次使用 OpenSpec，强烈建议先运行这个 Skill。
+
+- **何时使用**: 当你是 OpenSpec 的新用户，想要通过一个真实的实战任务来手把手学习整套流程时。
+- **功能**: 交互式教程。它会扫描你的代码库，找一个小任务，然后带领你完成从“发现问题” -> “规划” -> “实施” -> “归档”的全过程。
+
+---
+
 Guide the user through their first complete OpenSpec workflow cycle. This is a teaching experience—you'll do real work in their codebase while explaining each step.
 
 ---

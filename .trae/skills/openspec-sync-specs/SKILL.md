@@ -9,6 +9,15 @@ metadata:
   generatedBy: "1.2.0"
 ---
 
+## 💡 初学者指南 (Beginner's Guide)
+
+此 Skill 用于高级同步。通常在归档（Archive）时会自动同步 Specs，但有时你可能需要手动同步。
+
+- **何时使用**: 当你只想更新主 Specs（需求文档库），但还不想结束当前的开发任务时（例如长期的重构任务，想先把确定下来的需求合并进去）。
+- **功能**: 将当前变更中的 Delta Specs（增量需求）智能合并到主 Specs (`openspec/specs/`) 中。
+
+---
+
 Sync delta specs from a change to main specs.
 
 This is an **agent-driven** operation - you will read delta specs and directly edit main specs to apply the changes. This allows intelligent merging (e.g., adding a scenario without copying the entire requirement).

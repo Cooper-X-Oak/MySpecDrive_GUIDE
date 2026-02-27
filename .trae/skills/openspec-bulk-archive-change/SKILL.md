@@ -9,6 +9,15 @@ metadata:
   generatedBy: "1.2.0"
 ---
 
+## 💡 初学者指南 (Beginner's Guide)
+
+此 Skill 用于批量处理。如果你同时并行开发了多个功能，并且它们都完成了，可以用这个工具一次性把它们全部归档，保持工作区整洁。
+
+- **何时使用**: 当你有多个并行开发的变更（Change）都已经完成，想要一次性清理归档时。
+- **功能**: 批量检查多个变更的状态，智能解决不同变更对同一个 Spec 的修改冲突，并将它们统一移动到 `archive` 目录。
+
+---
+
 Archive multiple completed changes in a single operation.
 
 This skill allows you to batch-archive changes, handling spec conflicts intelligently by checking the codebase to determine what's actually implemented.

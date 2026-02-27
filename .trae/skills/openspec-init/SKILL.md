@@ -3,6 +3,15 @@ name: 'openspec-init'
 description: 'Initialize OpenSpec workflow structure and governance files in a new project. Use this to set up the spec-driven environment with one click.'
 ---
 
+## 💡 初学者指南 (Beginner's Guide)
+
+此 Skill 是项目的“启动器”。它用于在一个全新的项目中部署 OpenSpec 工作流。
+
+- **何时使用**: 当你刚在一个新项目中安装了 Trae，准备引入 OpenSpec 工作流时。
+- **功能**: 一键创建 `openspec/` 目录结构，生成初始的规则文件（Rules）和文档模板（Templates），搭建好 Spec-Driven 的开发环境。
+
+---
+
 # OpenSpec Init
 
 **Description:** Initialize the OpenSpec workflow in a new project. Creates directory structure, templates, and governance rules.

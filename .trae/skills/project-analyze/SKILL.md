@@ -3,6 +3,15 @@ name: project-analyze
 description: Analyze project structure, tech stack, and health. Use when onboarding, exploring a new codebase, or checking project stats.
 ---
 
+## 💡 初学者指南 (Beginner's Guide)
+
+此 Skill 是项目的“体检报告”。
+
+- **何时使用**: 当你接手一个新项目，或者想快速了解当前项目的技术栈、文件结构和健康状况时。
+- **功能**: 扫描项目文件（如 `package.json`），生成一份包含技术栈版本、目录结构和 OpenSpec 状态的详细分析报告。
+
+---
+
 # Project Analyze
 
 This skill provides a comprehensive analysis of the current project state.

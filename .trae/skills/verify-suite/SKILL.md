@@ -3,6 +3,15 @@ name: verify-suite
 description: Run comprehensive project verification (Lint, Type, E2E). Use when user wants to verify changes, run tests, or ensure quality before release.
 ---
 
+## 💡 初学者指南 (Beginner's Guide)
+
+此 Skill 是你的“质量安检员”。
+
+- **何时使用**: 在提交代码前，或者想要确保代码没有低级错误（Lint/Type）和逻辑错误（Test）时。
+- **功能**: 自动运行项目中的 Lint（代码风格）、Type Check（类型检查）和 Test（单元/E2E 测试），确保项目质量符合标准。
+
+---
+
 # Verify Suite
 
 This skill runs the project's verification suite to ensure code quality and functionality.
