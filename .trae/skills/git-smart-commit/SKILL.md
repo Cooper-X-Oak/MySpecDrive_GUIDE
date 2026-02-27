@@ -1,6 +1,17 @@
 ---
 name: git-smart-commit
-description: Generate conventional commit messages in Chinese and handle Push with network proxy intelligence. Use when user wants to commit or push code.
+description: 生成符合规范的中文提交信息，并智能处理网络代理进行推送。当用户想要提交或推送代码时使用。
+---
+
+## 💡 初学者指南 (Beginner's Guide)
+
+此 Skill 是你的 Git 助手。它会自动分析你的代码变更，写出规范的 Commit Message（例如 `feat: 增加登录功能`），并且在推送时自动检测本地代理（Clash/v2ray），解决 GitHub 连接不稳定的问题。
+
+- **功能**:
+    1. **智能提交**: 自动写 Commit Message，不需要你想破头。
+    2. **智能推送**: 自动检测 7890/7897 等代理端口，确保推送成功。
+- **使用方法**: 只需说 "提交代码" 或 "Push"。
+
 ---
 
 # Git Smart Workflow (Commit & Push)
