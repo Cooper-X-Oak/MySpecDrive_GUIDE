@@ -59,7 +59,11 @@ graph TD
 
 ### 方式 1: 官方标准安装 (Official)
 
-请直接参考 [OpenSpec 官方文档](https://github.com/fission-ai/openspec#quick-start) 进行初始化。
+请访问官网 [openspec.dev](https://openspec.dev) 或直接运行以下命令安装：
+
+```bash
+npm install -g @fission-ai/openspec@latest
+```
 
 > 🤖 **Agent 技巧**: 在新项目中，你可以直接告诉你的 AI 助手（如 Trae/Cursor）：
 > "请查阅 `https://github.com/fission-ai/openspec` 的 Quick Start，并帮我为当前项目初始化 OpenSpec 框架。"
