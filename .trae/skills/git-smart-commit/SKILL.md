@@ -12,9 +12,9 @@ It is specifically optimized for network environments in China (e.g., using Clas
 
 ### 1. Smart Commit (提交)
 
-1.  **Check Staged**: Run `git diff --cached --name-only`.
+1.  **Check Staged**: Run `git --no-pager diff --cached --name-only`.
     - If empty, ask user to stage files first (or offer to stage all).
-2.  **Generate Message**: Analyze `git diff --cached` and generate a Conventional Commit message in **Chinese**.
+2.  **Generate Message**: Analyze `git --no-pager diff --cached` and generate a Conventional Commit message in **Chinese**.
     - Format: `<type>(<scope>): <subject>`
 3.  **Confirm & Commit**: Show message and ask to commit.
     - Command: `git commit -m "<message>"`
