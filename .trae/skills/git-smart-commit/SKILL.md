@@ -45,6 +45,7 @@ If **Yes**:
       param([string[]]$GitArgs); $ErrorActionPreference = "Stop"
       function Write-Color { param([string]$Message, [ConsoleColor]$Color = "White"); Write-Host $Message -ForegroundColor $Color }
       Write-Color "`n🚀 Trae Smart Push: Initializing Network Optimization..." "Cyan"
+      # Common Proxy Ports: 7890 (Clash), 7897 (Clash Verge), 10808 (v2rayN), 1080 (SOCKS5), 51837 (EasyConnect/Other)
       $CandidatePorts = @(7890, 7897, 10808, 1080, 51837); $ActiveProxy = $null
       Write-Color "🔍 Scanning for local proxy (Clash/v2ray)..." "Gray"
       foreach ($Port in $CandidatePorts) { if (Test-NetConnection -ComputerName 127.0.0.1 -Port $Port -InformationLevel Quiet -WarningAction SilentlyContinue) { $ActiveProxy = "http://127.0.0.1:$Port"; Write-Color "✅ Found active proxy on port: $Port" "Green"; break } }
