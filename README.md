@@ -57,39 +57,19 @@ graph TD
 
 ## 🚀 快速开始 (Getting Started)
 
-### 1. 安装 OpenSpec CLI (Prerequisite)
+### 方式 1: 官方标准安装 (Official)
 
-本项目依赖 OpenSpec CLI 工具。请确保你的环境安装了 Node.js 20.19.0 或更高版本。
+请直接参考 [OpenSpec 官方文档](https://github.com/fission-ai/openspec#quick-start) 进行初始化。
 
-```bash
-# 全局安装 OpenSpec CLI
-npm install -g @fission-ai/openspec@latest
+> 🤖 **Agent 技巧**: 在新项目中，你可以直接告诉你的 AI 助手（如 Trae/Cursor）：
+> "请查阅 `https://github.com/fission-ai/openspec` 的 Quick Start，并帮我为当前项目初始化 OpenSpec 框架。"
 
-# 进入你的项目目录并初始化 OpenSpec
-cd your-project
-openspec init
-```
+### 方式 2: 使用本仓库模板 (Recommended for Beginners) 🇨🇳
 
-### 2. 配置 AI Agent (Trae/Cursor)
+本仓库是我个人优化过的、**中文友好**的配置版本，更适合国内开发者和初学者。
 
-你可以选择以下两种方式之一来配置你的 AI 编程助手：
-
-#### 方式 A: Agent 自动部署 (推荐) 🤖
-
-在你的项目中，直接告诉你的 AI Agent：
-
-> "请读取 GitHub 仓库 `https://github.com/Cooper-X-Oak/MySpecDrive_GUIDE`，并将 `.trae` 目录和 `openspec` 框架部署到当前项目中。"
-
-#### 方式 B: 手动安装 (Manual)
-
-1. 克隆本项目：
-   ```bash
-   git clone https://github.com/Cooper-X-Oak/MySpecDrive_GUIDE.git
-   ```
-2. 将 `.trae/` 文件夹复制到你的项目根目录下。
-   ```bash
-   cp -r MySpecDrive_GUIDE/.trae /your/project/path/
-   ```
+1. 点击本仓库右上角的 **Code -> Download ZIP** 下载源码包并解压。
+2. 将解压文件夹中的 `.trae/` 文件夹复制到你的项目根目录下。
 
 ### 3. 开始使用 (Usage)
 
