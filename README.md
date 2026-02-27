@@ -1,8 +1,16 @@
 # OpenSpec Drive 🚀
 
+[![GitHub](https://img.shields.io/badge/GitHub-MySpecDrive__GUIDE-blue?logo=github)](https://github.com/Cooper-X-Oak/MySpecDrive_GUIDE)
+[![OpenSpec](https://img.shields.io/badge/Powered_by-OpenSpec-orange)](https://github.com/fission-ai/openspec)
+
 > **Plan-First, Spec-Driven Development Workflow for AI Coding Assistants**
 
-MySpecDrive 是自用的 **Trae IDE**  AI 辅助编程工作流。它通过强制执行 "Plan-First"（计划优先）原则和 "Human-in-the-Loop"（人类介入）机制，让 AI 开发者不再“盲目编码”，而是像资深工程师一样思考、设计、验证。
+MySpecDrive 是自用 **Trae IDE** 的 Spec-Driven Development (SDD) 工作流模板。它基于 **[OpenSpec](https://github.com/fission-ai/openspec)** 框架，通过强制执行 "Plan-First"（计划优先）原则和 "Human-in-the-Loop"（人类介入）机制，让 AI 开发者不再“盲目编码”。
+
+希望给同样初学者的你提供学习和部署的便利。
+
+> **🌍 通用性说明 (Universality)**:
+> 虽然本项目采用了 Trae IDE 的 `.trae` 配置格式，但其核心的 **Rules (Markdown)** 和 **Skills (Prompts)** 逻辑是通用的。你可以轻松将其 Prompt 移植到 **Cursor** (.cursorrules), **Windsurf**, 或其他支持 System Prompt/Context 的 AI 编程环境中。OpenSpec 是一种方法论，而非仅限于某个工具。
 
 ## 🌟 核心理念 (Core Philosophy)
 
@@ -49,36 +57,49 @@ graph TD
 
 ## 🚀 快速开始 (Getting Started)
 
-### 1. 安装 (Installation)
+### 1. 安装 OpenSpec CLI (Prerequisite)
 
-将本项目中的 `.trae/` 文件夹复制到你的 Trae 项目根目录下。
+本项目依赖 OpenSpec CLI 工具。请确保你的环境安装了 Node.js 20.19.0 或更高版本。
 
 ```bash
-# 假设你在项目根目录
-cp -r /path/to/OpenSpec-Drive/.trae .
+# 全局安装 OpenSpec CLI
+npm install -g @fission-ai/openspec@latest
+
+# 进入你的项目目录并初始化 OpenSpec
+cd your-project
+openspec init
 ```
 
-### 2. 初始化 (Initialization)
+### 2. 配置 AI Agent (Trae/Cursor)
 
-确保你已经安装了 Trae IDE，并启用了 **Skill** 功能。
+你可以选择以下两种方式之一来配置你的 AI 编程助手：
 
-在 Trae 的聊天窗口中输入：
+#### 方式 A: Agent 自动部署 (推荐) 🤖
 
-```
-openspec-init
-```
+在你的项目中，直接告诉你的 AI Agent：
 
-这将初始化 `openspec/` 目录结构和必要的配置文件。
+> "请读取 GitHub 仓库 `https://github.com/Cooper-X-Oak/MySpecDrive_GUIDE`，并将 `.trae` 目录和 `openspec` 框架部署到当前项目中。"
 
-### 3. 开始一个新变更 (Start a Change)
+#### 方式 B: 手动安装 (Manual)
 
-当你想要开发新功能或修复 Bug 时，不要直接让 AI 写代码，而是输入：
+1. 克隆本项目：
+   ```bash
+   git clone https://github.com/Cooper-X-Oak/MySpecDrive_GUIDE.git
+   ```
+2. 将 `.trae/` 文件夹复制到你的项目根目录下。
+   ```bash
+   cp -r MySpecDrive_GUIDE/.trae /your/project/path/
+   ```
 
-```
-openspec-new-change
-```
+### 3. 开始使用 (Usage)
 
-AI 将引导你创建 `proposal.md`，开启 OpenSpec 之旅。
+配置完成后，你的 Trae IDE 将获得一系列 **Skills**。你可以直接与 AI 对话：
+
+- **开始新功能**: "我想开发一个用户登录功能" (自动触发 `openspec-new-change`)
+- **继续开发**: "继续下一步" (自动触发 `openspec-continue-change`)
+- **验证代码**: "验证一下现在的实现" (自动触发 `openspec-verify-change`)
+
+> 💡 **提示**: OpenSpec 官方也支持使用 `/opsx:propose` 等指令控制 AI，你可以根据喜好选择使用 Trae Skills (自然语言) 或 OpenSpec 指令。
 
 ## 🧰 内置技能 (Built-in Skills)
 

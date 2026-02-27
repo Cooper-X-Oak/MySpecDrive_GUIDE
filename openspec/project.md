@@ -10,7 +10,7 @@ Initialization (初始化)
 - (待定义 - 需要用户批准)
 
 ## 描述 (Description)
-A Plan-First, Spec-Driven Development (SDD) workflow for Trae IDE.
+自用 Trae IDE 的 Spec-Driven Development (SDD) 工作流模板。希望给同样初学者的你提供学习/部署便利。
 (请在此处替换为你自己的项目描述)
 
 ## 目标 (Goals)

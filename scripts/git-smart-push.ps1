@@ -1,5 +1,5 @@
 # Git Smart Push for China Network Environment
-param([string[]]$GitArgs); $ErrorActionPreference = "Stop"
+param([Parameter(ValueFromRemainingArguments=$true)][string[]]$GitArgs); $ErrorActionPreference = "Stop"
 function Write-Color { param([string]$Message, [ConsoleColor]$Color = "White"); Write-Host $Message -ForegroundColor $Color }
 Write-Color "`n🚀 Trae Smart Push: Initializing Network Optimization..." "Cyan"
 $CandidatePorts = @(7890, 7897, 10808, 1080, 51837); $ActiveProxy = $null
