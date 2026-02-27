@@ -1,7 +1,7 @@
 # 项目概览 (Project Overview)
 
 ## 项目名称 (Project Name)
-BliMax
+MySpecDrive GUIDE
 
 ## 状态 (Status)
 Initialization (初始化)
